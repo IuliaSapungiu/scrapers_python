@@ -112,11 +112,11 @@ def main():
     logo_link = "https://upload.wikimedia.org/wikipedia/commons/6/67/Morningstar_Logo.svg"
 
     jobs = scraper()
-    # print(len(jobs), jobs)
+    print(len(jobs), jobs)
 
     # uncomment if your scraper done
-    UpdateAPI().update_jobs(company_name, jobs)
-    UpdateAPI().update_logo(company_name, logo_link)
+    # UpdateAPI().update_jobs(company_name, jobs)
+    # UpdateAPI().update_logo(company_name, logo_link)
 
 if __name__ == '__main__':
     main()
